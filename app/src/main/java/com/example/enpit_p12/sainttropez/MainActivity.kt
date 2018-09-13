@@ -90,6 +90,7 @@ class MainActivity : AppCompatActivity() {
                     type = "text/plain"
                     putExtra(Intent.EXTRA_TEXT , text)
 
+
                 }
                 val chooser = Intent.createChooser(intent , null)
                 if (intent.resolveActivity(packageManager) != null){
